@@ -27,11 +27,11 @@ Github = Git hosting service
 - Git Init, Clone, Config
 ### Saving Changes
 The Staging Area
-Working directory
+1. Working directory
 (git add)
-Staging Area
+2. Staging Area
 (git commit)
-Git Repository
+3. Git Repository
 - Git Status, Add, Commit
 - Git Diff and Stash
 ### Inspecting Repository
