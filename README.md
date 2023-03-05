@@ -1,18 +1,7 @@
-### Resume Section 10 Agile Testing
-SDLC (Software Development Life Cycle) merupakan proses yang digunakan untuk merancang, mengembangkan, dan menguji software yang berkualitas tinggi.
-Tujuan SDLC :
-Untuk menyediakan alur terstruktur dalam membantu organisasi mengahsilkan software yang berkualitas tinggi.
-Fungsi SDLC :
-1. Sebagai sarana komunikasi antara tim developer dengan pemegang kepentingan
-2. Membagi peranan, tanggung jawab yang jelas antara developer, designer, bisnis analis, dan manager proyek
-3. Dapat memberikan gambaran input & output yang jelas satu tahap menuju tahap selanjutnya.
-Tahapan SDLC :
-Requirment gathering - Design - Development (code) - Testing - Deployment - maintenance
-
-Agile Testing Manifesto, sebagai prinsip dalam pengujian sistem yang mendukung prinsip agile testing.
-5 Kunci dalam melakukan testing manifesto :
-1. Testing in an activity not a phase
-2. Prevent bugs rather than finding bugs
-3. Don't be checker, be a tester
-4. Don't try to break the system, instead help build the best possible system
-5. The whole team is responsible for analitys not just the tester
+Link Gdocs 
+Soal Prioritas (100) : https://docs.google.com/document/d/1-OdHUIh6kfFIosBHmaP5rvDy5FWqYhWh/edit?usp=sharing&ouid=105103636339549337215&rtpof=true&sd=true
+Soal Tracking Management Tools : https://docs.google.com/document/d/18cxqAwxcuYHLJngs1eznl7hP5pFkP0W9/edit?usp=sharing&ouid=105103636339549337215&rtpof=true&sd=true
+Soal Test Case Management Tools : https://docs.google.com/document/d/1jsRCUgRnbTa05KPFJdawK6BUrAMYM9rh/edit?usp=sharing&ouid=105103636339549337215&rtpof=true&sd=true
+Soal Eksplorasi (20) : https://docs.google.com/document/d/1MAlcHB0js-t0vdtrFtpXIOvgCTAuSpf4/edit?usp=sharing&ouid=105103636339549337215&rtpof=true&sd=true
+Soal Prioritas 2 (20) : https://docs.google.com/spreadsheets/d/1_zFxV5jRTCrzQXRWw8LdD1LgexsVkkA1/edit?usp=sharing&ouid=105103636339549337215&rtpof=true&sd=true
+Soal Prioritas 1 (80) : https://docs.google.com/spreadsheets/d/13vmGQMw6nhsdhgeIaVSGqF6f7bDqD6Bc/edit?usp=sharing&ouid=105103636339549337215&rtpof=true&sd=true
