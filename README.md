@@ -1,42 +1,34 @@
-### Resume section 20 RESTful API Testing with Rest Assured
-#### Rest API Testing
-#### Rest API 
-API Concept and Fundamental, merupakan standar arsitektur komunikasi berbasis yang sering diterapkan dalam pengembangan layanan berbasis web. Umumnya menggunakan http sebagai protokol untuk komunikasi data.
-Rest API berisi batasan/aturan yang dapat membatasi programmer untuk mengakses atau melakukan tindakan-tindakan tertentu pada suatu database.
-Jika API adalah penghubung maka Rest yang membuat aturan programmer dalam perancangan service.
-Contoh API Concept :
-Terdapat request & response antara User(Mobile App), Waiter(API), Kitchen(Application).
+### Resume section 16 Pengenalan RESTful API
+#### Basic API Testing :
+- API & REST API
+- Testing API
+- Advantages & Challenge
 
-#### Fundamental API Integration
-Mobile App > API Server > Ext Process > API Testing
+API singkatan Application Programming Interface. API memungkinkan komunikasi dan pertukaran data antara 2 atau lebih software /sistem yang terpisah.
 
-#### Fundamental API 
-Test Process
-Pertama, definisikan API yang akan dites.
-Kemudian inputkan data yang dibutuhkan, baik diheader maupun dibody requestnya.
-Selanjutnya lakukan send request ke server.
-Lalu melakukan validasi terhadap respon yang diberikan.
+#### API Workflow :
+Client > API > System/server
 
-#### The Practical Test Pyramid
-Test pyramid dikelompokkan ke dalam 4 kategori :
-- UI
-- Integration
-- Component
-- UNIT
+#### REST API
+- REST  singkatan dari "Representational State Transfer"
+- HTTP Method.
 
-#### BDD FRAMEWORK With Cucumber
-BDD With Cucumber
-Write story > Map Steps to Java > Configure Stories > Run Stories > View Reports
+#### HTTP METHOD
+4 Method :
+- Resource = URL
+- GET = Membaca data
+- PUT = Membuat/mengganti data
+- POST = Membuat data baru
+- DELETE = Menghapus data yang ada
 
-#### Rest Assured
-Features and Writing Test
-Preparation : Java 1.8, Maven 3.5.2, Intellij IDEA 2018
+#### REST API Component :
+METHOD > URL (Base URL + Path) > HEADER > BODY
 
-#### SERENITY BDD 
-Reporting : Overall test result & test details.
+#### HTTP Response Code :
+200 OK, 201 Created, 400 Bad Request, 404 Not Found, 401 Unauthorized
 
-### RESTful API Testing with Rest Assured 2
-#### API
-Merupakan kepanjangan dari Application Programming Interface (Antarmuka Pemrograman Aplikasi). API merupakan yang memungkinkan dua komponen perangkat lunak untuk saling berhubungan dengan menggunakan serangkaian definisi dan protokol.
+
+
+
 
 
