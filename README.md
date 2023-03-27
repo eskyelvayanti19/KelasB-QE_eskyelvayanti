@@ -1,4 +1,4 @@
-### Resume section 16 Pengenalan RESTful API
+### Resume section 17 REST API Testing
 #### Basic API Testing :
 - API & REST API
 - Testing API
