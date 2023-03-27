@@ -25,10 +25,48 @@ Client > API > System/server
 METHOD > URL (Base URL + Path) > HEADER > BODY
 
 #### HTTP Response Code :
-200 OK, 201 Created, 400 Bad Request, 404 Not Found, 401 Unauthorized
+200 OK, 201 Created, 400 Bad Request, 404 Not Found, 401 Unauthorized, 405 Method Not Allowed, 500 Internal Server Error
 
+#### REST API Inputs :
+GET, POST, PUT, DELETE
 
+#### What's API TESTING?
+- API Test sangat berbeda dengan GUI
+- Mengirim request dan mendapatkan responsenya
+- Memverifikasi response yang benar dan error handling 
 
+#### KIND OF API TESTING :
+- Functionality
+- Load Test
+- Security
+
+#### API TESTING Tools :
+Postman, Jmeter, Frisby.js, Rest-assured
+
+#### API TESTING Process :
+- Specification review
+- Specification development
+- Framework development
+- Test case development
+- Execution & report
+
+#### Test Case for API TESTING :
+- Mendapatkan balikan (response) yang sesuai dengan inputan.
+- Apakah memberikan balikan atau tidak.
+- Apakah mengganggu fitur yang lain atau tidak.
+- Update struktur data.
+- Memodifikasi data yang ada.
+
+#### Type's of output of an API TESTING :
+- Bisa berbentuk apa saja, namun umumnya berbentuk JSON & XML
+- Status balikan (response) apakah passed atau fail
+- Memanggil fungsi API lain
+
+#### Advantages of Testing API :
+- Efisiensi waktu
+- Bahasa yang independen
+- Mengurangi biaya testing
+- Mengurangi resiko
 
 
 
