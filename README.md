@@ -1,23 +1,49 @@
-### Resume section 26 Post Processor
+### Resume section 21 Web Programming
 
-### Post Processor
-Post Processor adalah bagian dari Test Plan yang merupakan sebuah aksi yang berjalan saat proses telah dilakukan. Proses yang dilakukan pada web processor ini umumnya adalah untuk mengekstrak value yang didapatkan dari hasil mengakses halaman pada web seperti data - data pada JSON, pada session, atau pada bagian respon yang lainnya. 
+### HTML
+### CSS
 
-Berikut salah satu Post Processor di JMeter yang bisa kita gunakan adalah JSON Extractor.
-#### JSON Extractor
-Pada JSON Extractor kita dapat menggunakan JSON Path untuk mengambil nilai - nilai yang terdapat pada data JSON yang dihasilkan dari respon saat kita melakukan request. 
+Dalam Web Programming dibagi menjadi dua :
+-> Front-End
+adalah bagian website yang dapat berinteraksi langsung dan dapat dilihat langsung oleh user.
+Front-End merupakan sebuah bagian dari website yang membuat tampilan menarik kepada user.
+Komponen front-end : 
+. HTML = berfungsi sebagai struktur yang akan membangun komponen website yang kita buat
+. CSS = berfungsi untuk membuat tampilan website kita menjadi lebih menarik
+. JS = memberikan fungsi - fungsi yang akan membuat website kita lebih hidup dan interaktif. 
+   
+-> Back-End
+adalah bagian website yang tidak dapat berinteraksi langsung atau dilihat dengan user. Salah satu contohnya Database.
 
-#### JSON Path
-Terkait JSON Path, berikut adalah aturan - aturan yang dapat digunakan untuk mengekstraksi JSON :
--> $ = root element, artinya seluruh data JSON yang didapatkan adalah $ 
--> . = child operator (object), untuk mengoperasikan child operator object dapat menggunakan tanda titik.
-->[] = child operator (array), untuk mengoperasikan child operator array dapat menggunakan kurang siku buka dan tutup.
-->.. = recursive descent (langsung ke objek), sebagai operasi recursive 
--> * = wilcard (all things), mengakses secara keseluruhan
--> [start:end] = array slice operator borrowed, untuk memotong array dari index sekian sampai index sekian dengan cara menulis [] ditengahnya adalah rench yang kita mau dengan : sebagai tanda pisah.
+### HTML
+HTML (Hypertext Markup Language) adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web.
 
-### Understanding Jmeter Results
-Pertama, cara membuka Jmeter:
-- Open terminal
-- Navigate to the bin folder, cd this/is/your/folder/apache-jmeter-version/bin
-- Run Jmeter, ./jmeter
+Kegunaan HTML :
+1. Membuat struktur dari halaman website.
+2. Mengatur tampilan dan isi dari halaman web.
+3. Membuat tabel dengan tag HTML table.
+4. Membuat form HTML.
+5. Membuat gambar dengan canvas.
+6. Mempublikasikan halaman website secara online.
+
+Terdapat 2 tools untuk proses development HTML :
+- HTML editors (Notepad, Visual Studio Code, Sublime, Notepad++, dan Atom)
+
+Dokumentasi :
+-) <!DOCTYPE html> : mendefinisikan dokumen ini sebagai HTML5
+-) <html> : elemen root dari halaman HTML.
+-) <head> : berisi informasi meta tentang dokumen
+-) <title> : menentukan judul untuk dokumen
+-) <body> : berisi konten halaman yang terlihat
+
+List HTML :
+1. Ordered List adalah list yang berurut. (<ol>)
+2. Unordered List adalah list yang tak terurut. (<ul>)
+Setiap list item pada Ordered List dan Unordered List dideklarasikan menggunakan tag <li>.
+
+Tag Table HTML
+- Membuat table pada HTML menggunakan tag <table></table>
+- Setiap baris table di deklarasikan menggunakan <tr></tr>
+- Setiap kolom table di deklarasikan menggunakan <td></td>
+- Untuk kolom pada table header menggunakan <th></th>
+
