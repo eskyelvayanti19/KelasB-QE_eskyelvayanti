@@ -1,49 +1,15 @@
-### Resume section 21 Web Programming
+### Resume section 22 Web UI Testing using Serenity with Cucumber
 
-### HTML
-### CSS
+### Web Automation Testing
+Adalah suatu cara yang digunakan untuk melakukan testing terhadap web yang dibuat.
 
-Dalam Web Programming dibagi menjadi dua :
--> Front-End
-adalah bagian website yang dapat berinteraksi langsung dan dapat dilihat langsung oleh user.
-Front-End merupakan sebuah bagian dari website yang membuat tampilan menarik kepada user.
-Komponen front-end : 
-. HTML = berfungsi sebagai struktur yang akan membangun komponen website yang kita buat
-. CSS = berfungsi untuk membuat tampilan website kita menjadi lebih menarik
-. JS = memberikan fungsi - fungsi yang akan membuat website kita lebih hidup dan interaktif. 
-   
--> Back-End
-adalah bagian website yang tidak dapat berinteraksi langsung atau dilihat dengan user. Salah satu contohnya Database.
+Ada beberapa tools yang bisa kita pakai untuk membuat automation testing :
+1. Katalon, tools yang digunakan untuk melakukan testing mulai dari mobile apps sampai ke broswer desktop. Tools ini dapat merekam langkah menangkap elemen web pada web aplikasi, memainkan secara otomatis untuk test case yang sudah ada dan untuk reportnya. Pada katalon kita dapat menangkap objek/elemen seperti button, filtext, radiobutton, select, dll.
 
-### HTML
-HTML (Hypertext Markup Language) adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web.
+2. Cypress,adalah ree test tools dimana bisa dirun pad CI dan dapat digunakan pada operating system seperti mac, linux, dan windows. Saat ini cypress hanya dapat melakukan pengerjaan testing pada web saja dan belum bisa melakukan pengerjaan pada native mobile app. Pada tools ini disupport oleh bahasa js, ruby, noted, php dll.
 
-Kegunaan HTML :
-1. Membuat struktur dari halaman website.
-2. Mengatur tampilan dan isi dari halaman web.
-3. Membuat tabel dengan tag HTML table.
-4. Membuat form HTML.
-5. Membuat gambar dengan canvas.
-6. Mempublikasikan halaman website secara online.
+3. Robot Framework, menggunakan bahasa programming python. Salah satu framework dari selenium yang dapat kita comment dengan custom function dengan bahasa python. Robot framework merupakan open source tools yang digunakan untuk automation seperti web, api. 
 
-Terdapat 2 tools untuk proses development HTML :
-- HTML editors (Notepad, Visual Studio Code, Sublime, Notepad++, dan Atom)
+4. Test Project, termasuk tools automation testing yang kepopulerannya bisa disejajarkan dengan katalon. Menggunakan selenium sebagai website dan apium untuk mobilenya.
 
-Dokumentasi :
--) <!DOCTYPE html> : mendefinisikan dokumen ini sebagai HTML5
--) <html> : elemen root dari halaman HTML.
--) <head> : berisi informasi meta tentang dokumen
--) <title> : menentukan judul untuk dokumen
--) <body> : berisi konten halaman yang terlihat
-
-List HTML :
-1. Ordered List adalah list yang berurut. (<ol>)
-2. Unordered List adalah list yang tak terurut. (<ul>)
-Setiap list item pada Ordered List dan Unordered List dideklarasikan menggunakan tag <li>.
-
-Tag Table HTML
-- Membuat table pada HTML menggunakan tag <table></table>
-- Setiap baris table di deklarasikan menggunakan <tr></tr>
-- Setiap kolom table di deklarasikan menggunakan <td></td>
-- Untuk kolom pada table header menggunakan <th></th>
-
+Serenity BDD merupakan library open source yang membantu tester dalam menulis open source extend test yang terstruktur dan lebih terawat baik dan menghasilkan laporan pengujian yang kaya makna
