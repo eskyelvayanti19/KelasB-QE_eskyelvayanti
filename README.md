@@ -12,4 +12,54 @@ Ada beberapa tools yang bisa kita pakai untuk membuat automation testing :
 
 4. Test Project, termasuk tools automation testing yang kepopulerannya bisa disejajarkan dengan katalon. Menggunakan selenium sebagai website dan apium untuk mobilenya.
 
-Serenity BDD merupakan library open source yang membantu tester dalam menulis open source extend test yang terstruktur dan lebih terawat baik dan menghasilkan laporan pengujian yang kaya makna
+Serenity BDD merupakan library open source yang membantu tester dalam menulis open source exitend test yang terstruktur dan lebih terawat baik dan menghasilkan laporan pengujian yang kaya makna yang dikenal dengan living documentations.
+
+Arsitektur Serenity BDD :
+- Requirements
+- Tests
+- Steps
+- Pages
+- Reports
+
+Define Requirements :
+Contohnya : search by keyword
+
+Automate Acceptance Criteria :
+Contoh : 
+Feature : .....
+Scenario :
+  - Given
+  - When
+  - Then
+  
+Implement The Test :
+Implementasi dari scenario pada automated acceptance criteria
+
+Report On The Test Result :
+- A narrative or each test
+- Screenshoots for each step in the test
+- The result including execution times and error messages if a test failed 
+
+### BDD Framework With Cucumber
+
+The step overview :
+- Write story
+- Configure stories
+- Browser Interaction
+- Run stories
+- View Reports
+
+Preparations :
+- Maven
+- Homebrew
+- Chrome
+- Intellij
+
+Writing The Test :
+- Serenity cucumber
+- Create file stories
+- Create file test class
+- Create file test steps
+- Create file pages objects
+
+
