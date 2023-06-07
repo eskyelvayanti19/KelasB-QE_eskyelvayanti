@@ -1,43 +1,53 @@
-### Resume section 24 Introduction & Tutorial Record with JMeter
-Ada beberapa tools yang dapat kita lakukan untuk melakukan pengujian ini :
-- JMeter
-- BlazeMeter
-- Locust dll
+### Resume section 27 Mobile Testing With Serenity 
+Mobile testing adalah proses dimana aplikasi yang dikembangkan untuk perangkat mobile diuji untuk kegunaan dan konsistensinya. Ada 2 macam testing yang harus dilakukan pada aplikasi pada perangkat mobile, yaitu :
+- Pengujian Hardware, testing hardware termasuk processor, memori internal, ukuran layar, resolusinya, besarnya RAM, kemampuan kamera, bluetooth, wifi dll akan menjadi komponen yang harus ditesting dalam proses pengujian hardware 
+- Pengujian Sotware, dalam tahap ini aplikasi yang telah dikembangkan akan diuji secara detail dan teliti. Fungsi dan konsistensi sebuah aplikasi mobile akan diuji. 
 
-Pada pengujian kali ini, kita menggunakan JMeter
+seperti kita ketahui bahwa aplikasi mobile terbagi menjadi 3 macam, yaitu : Aplikasi mobile native, hybrid, dan web. Ketiganya memiliki perbedaaan dasar yang tentunya mempengaruhi proses pengujian. Pengujian aplikasi mobile jauh lebih kompleks dibandingkan pengujian aplikasi atau web desktop karena mobile meiliki banyak macam ukuran konfigurasi hardware seperti Qpad, virtual Qpad, kemudian bermacam-macam sistem informasi yang dipakai seperti android, windows, Ios dan semacamnya. 
+Dan juga memiliki jenis jaringan mobile seperti xdme atau gsm.
 
-### Pengertian
-JMeter adalah software yang berlisensi Apache, yang merupakan perangkat lunak dengan sumber terbuka sehingga semua orang dapat ikut serta dalam menggunakan aplikasi JMeter ini.
-JMeter juga terbuat dari aplikasi desktop berbasis java yang dirancang untuk menguji perilaku suatu website sehingga pengguna dapat melihat apakah website tersebut memiliki fungsionalitas dan kinerja yang sudah sesuai.
-Apache JMeter semakin bertambah waktu semakin dikembangkan pula sehingga yang awalnya hanya untuk menguji website sekarang sudah berkembang pada fungsi-fungsi pengujian yang lainnya.
+### Ada beberapa macam testing yang selayaknya digunakan untuk mengatasi masalah - masalah mobile testing :
+- Usability Testing, untuk memastikan bahwa aplikasi mobile mudah digunakan dan memberikan user experience untuk penggunanya 
+- Compatibility Testing, pengujian aplikasi dengan perangkat mobile yang berbeda melalui browser dengan ukuran layar yang berbeda serta versi OS sesuai dengan kebutuhan.
+- Interface Testing, pengujian pemilihan menu, tombol, kogma, history, pengaturan, dan navigasi dari aplikasi pengujian testing dalam keadaan online maupun offline.
+- Low Level High Resource Testing, pengujian memory, auto delete file-file sementara, dan adanya database.
+- Performance Testing, pengujian kinerja aplikasi dengan mengubah koneksi dari 2G ke Wifi atau 3G ke Wifi, kemampuan bebagi dokumen dan bagaimana kapasitas batreh yang dibutuhkan.
+- Operational Testing, back up dan rencana recovery jika batreh melemah atau saat kehilangan data karena proses update dari toko.
+- Installation Testing, validasi aplikasi dengan menginstall atau menguninstall perangkat mobile.
+- Security, pengujian aplikasi untuk menvalidasi apakah data terlindungi di sistem informasi.
 
-### Berikut Keuntungan Dalam Menggunakan JMeter :
-- Open Source, sehingga kita dapat melihat code dari aplikasi JMeter ini. Jika ada masalah, kita dapat melihat sendiri permasalahan tersebut terjadi pada bagian mana
-- JMeter dibuat dalam bentuk user inteface dan tanpa user interface, jika dengan user interface makan kita akan mendapatkan aplikasi yang berjalan seperti aplikasi desktop pada umumnya, terdapat tombol, form untuk input, dan tampilan-tampilan yang digunakan untuk interaksi lainnya. Jika kita menggunakan fitur non GUI dari JMeter ini maka kita dapat menggunakannya pada sistem berbasis YLIN atau command line interface. 
+Untuk memastikan bahwa standaritas dan kinerja terpenuhi, maka adanya strategi untuk testing aplikasi mobile sangat dibutuhkan seperti pemilihan perangkat, analisis pasar, dan memilih perangkat yang banyak digunakan. Keputusan ini sebagian besar bergantung pada user atau pada development yang mempertimbangkan popularitas sebuah perangkat lunak tertentu.
 
-### Cara menginstallnya:
-1. Install JDK (Java Development Kit) 
-2. Download JMeter
-3. Buka file dalam zip JMeter
-4. Buka terminal dan buka jmeter
-5. Install Plugin
+Emulator, penggunaan emulator sangat membantu dalam tahap pengembangan awal. Emulator memungkinkan untuk melakukan pengecekan secara cepat dan efisien. Emulator sendiri merupakan sistem yang menjalankan software yang seolah-olah membawa kita pada sistem operasi lain.
 
-### Komponen JMeter :
-1. Test Plan
-Rencana besar tes yang akan dilakukan (parent)
-2. Thread Groups
-Kumpulan thread yang menjalankan skenario yang sama
-3. Samplers
-Sebutan untuk request yang dikirim ke server
-4. Config Element
-Elemen yang digunakan untuk konfigurasi atau modifikasi sampler atau request yang dikirim ke server
-5. Listener
-Perekam data yang dihasilkan dari tes
-6. Timers
-Fitur ini akan jalan duluan sebelum semua fitur yang lain berjalan
-7. Assertions
-Seperti assert pada API/Web/Testing, merupakan kriteria tambahan apakah pass/tidak
-8. Pre-post Processors
-Fitur yang memproses response data sebelum/sesudah test
+### Mobile Automation Testing
+Pada autimation kali ini akan menggunakan appium sebagai toolsnya.
+Appium adalah mobile web, native, dan software application test automation tools dan juga open source artinya gratisan software automation tools, biasanya banyak digunakan untuk android dan IOS platform aplikasi. 
+Appium dapat dijalankan di android appium simulator maupun di field device.
 
+Keuntungan appium :
+- Dapat regression alikasi mobile kita menjadi lebih mudah khususnya untuk apliksi mobile yang ngeshare updatenya dilakukan secara berkelanjutan dengan fitur dan fungsi yang terus diperbaharui.
+- Appium mendukung multiple platform dan language serta bisa menggunakan testing framework apapun, seperti Android, IOS, Windows OO dll
+- Appium mendukung abhasa pemrograman seperti java, bahasa c, javascript, python, ruby, php dll
+- Appium tidak membutuhkan source code testing aplikasi dimana kita bisa testing langsung juga kita bisa membangun build in aplikasi seperti kamera, kalender, dsb di dalam tes script kita nanti
+
+Keterbataan appium :
+- Untuk versi android, appium tidak support untuk android level kurang dari 17 dan untuk eksekusi script sangat lambat di IOS platform serta gesture supportnya sangat terbatas 
+
+### Appium Level High Architecture :
+Client -> appium server -> XCUITest, UIAutomator2/Espreso, WinAppDriver
+
+### Appium Components :
+- Appium Server, merupakan komponen inti dari arsitektur appium, ditulis di node jd dan berjalan di mesin atau di cloud
+- Appium Client, meminta untuk memulai session menggunakan perintah create session melalui protocol JSON While, menjalankan beberapa pengujian pada perangkat seluler dan menerima hasil dari server appium.
+
+Library appium menjangkau beberapa bahasa, yaitu PHP, Java, Javascript, Python, Ruby dll
+
+### Installation Appium :
+Tools yang akan digunakan :
+- Java JDK 8/11
+- Install Android SDK Platform-tools & command-line tools
+- Appium Desktop
+- Node JS
+- Appium-doctor
 
